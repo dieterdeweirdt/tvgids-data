@@ -1,0 +1,68 @@
+name: grab-epg
+
+on:
+  schedule:
+    - cron: "15 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never cancel a deploy halfway; queue the next run instead.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check out iptv-org/epg grabber
+        uses: actions/checkout@v7
+        with:
+          repository: iptv-org/epg
+          path: epg
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: epg/package-lock.json
+
+      - name: Install grabber
+        working-directory: epg
+        run: npm ci
+
+      - name: Grab guide
+        working-directory: epg
+        run: |
+          npm run grab --- --channels=../belgie.channels.xml \
+            --days=3 --maxConnections=2 --output=../public/guide.xml --gzip
+
+      # If this fails, nothing is deployed and yesterday's guide stays online.
+      - name: Sanity check
+        run: |
+          programmes=$(grep -c '<programme' public/guide.xml)
+          channels=$(grep -o '<programme [^>]*channel="[^"]*"' public/guide.xml | sed 's/.*channel="//' | sort -u | wc -l)
+          echo "programmes: $programmes, channels with programmes: $channels"
+          echo "### Gids: $programmes programma's op $channels zenders" >> "$GITHUB_STEP_SUMMARY"
+          test -s public/guide.xml.gz
+          test "$programmes" -gt 500
+          test "$channels" -ge 10
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+      - id: deployment
+        uses: actions/deploy-pages@v5

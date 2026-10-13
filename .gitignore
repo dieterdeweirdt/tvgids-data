@@ -1,0 +1,4 @@
+# Workflow output and grabber checkout
+public/
+epg/
+.DS_Store
