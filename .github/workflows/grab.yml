@@ -57,6 +57,11 @@ jobs:
           npm run grab --- --channels=../belgie.channels.xml \
             --days=3 --maxConnections=2 --output=../public/guide.xml --gzip
 
+      - name: Drop duplicate programmes
+        run: |
+          python3 scripts/dedupe-guide.py public/guide.xml
+          gzip -9 -c public/guide.xml > public/guide.xml.gz
+
       # If this fails, nothing is deployed and yesterday's guide stays online.
       - name: Sanity check
         run: |
@@ -65,7 +70,7 @@ jobs:
           echo "programmes: $programmes, channels with programmes: $channels"
           echo "### Gids: $programmes programma's op $channels zenders" >> "$GITHUB_STEP_SUMMARY"
           test -s public/guide.xml.gz
-          # Full list (14/10/2026): ~43,000 programmes on ~198 channels. Well below that means
+          # Full list (14/10/2026): ~28,000 programmes (after dedupe) on ~198 channels. Well below that means
           # Pickx failed for many channels; keep yesterday's guide instead.
           test "$programmes" -gt 20000
           test "$channels" -ge 150
