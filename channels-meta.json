@@ -1,0 +1,1367 @@
+{
+ "channels": [
+  {
+   "id": "VRT1.be@SD",
+   "language": "nl",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "VTM.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "Play4.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "VRTCanvas.be@SD",
+   "language": "nl",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "VTM2.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "Play5.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "VTM3.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "Ketnet.be@SD",
+   "language": "nl",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "VTM4.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "Play6.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "LaUne.be@SD",
+   "language": "fr",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "RTLTVI.be@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "AnimalPlanet.nl@SD",
+   "language": "nl",
+   "categories": [
+    "documentary"
+   ]
+  },
+  {
+   "id": "ATV.be@SD",
+   "language": "nl",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "AVS.be@HD",
+   "language": "nl",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "AVSGent.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "BabyTV.uk@Netherlands",
+   "language": "nl",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "BBCFirst.uk@Benelux",
+   "language": "nl",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "Bruzz.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "CartoonNetworkWesternEurope.uk@Netherlands",
+   "language": "nl",
+   "categories": [
+    "animation",
+    "kids"
+   ]
+  },
+  {
+   "id": "Cartoonito.uk@SD",
+   "language": "nl",
+   "categories": [
+    "animation",
+    "kids"
+   ]
+  },
+  {
+   "id": "ComedyCentral.nl@SD",
+   "language": "nl",
+   "categories": [
+    "comedy"
+   ]
+  },
+  {
+   "id": "DAZN1.uk@Netherlands",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DAZN2.uk@Netherlands",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DAZN3.uk@Netherlands",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DAZNProLeague1.uk@Netherlands",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DAZNProLeague2.uk@Netherlands",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DAZNProLeague3.uk@Netherlands",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DiscoveryChannel.nl@SD",
+   "language": "nl",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "DiscoveryScienceEurope.uk@Netherlands",
+   "language": "nl",
+   "categories": [
+    "science"
+   ]
+  },
+  {
+   "id": "DisneyChannel.nl@SD",
+   "language": "nl",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "DisneyJunior.nl@SD",
+   "language": "nl",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "DobbitTV.be@NL",
+   "language": "nl",
+   "categories": [
+    "lifestyle"
+   ]
+  },
+  {
+   "id": "EEurope.nl@SD",
+   "language": "nl",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "EclipsTV.be@SD",
+   "language": "nl",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "Eurosport1.fr@Netherlands",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "Eurosport2.fr@Netherlands",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "FocusTV.be@SD",
+   "language": "nl",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "HGTV.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "History.nl@SD",
+   "language": "nl",
+   "categories": [
+    "documentary"
+   ]
+  },
+  {
+   "id": "InsightTV.nl@SD",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "InvestigationDiscovery.nl@SD",
+   "language": "nl",
+   "categories": [
+    "documentary"
+   ]
+  },
+  {
+   "id": "KanaalZ.be@SD",
+   "language": "nl",
+   "categories": [
+    "business"
+   ]
+  },
+  {
+   "id": "MentTV.be@SD",
+   "language": "nl",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "MTV.nl@SD",
+   "language": "nl",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "NationalGeographic.nl@SD",
+   "language": "nl",
+   "categories": [
+    "documentary"
+   ]
+  },
+  {
+   "id": "NationalGeographicWild.nl@SD",
+   "language": "nl",
+   "categories": [
+    "documentary"
+   ]
+  },
+  {
+   "id": "NickJr.nl@SD",
+   "language": "nl",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "Nickelodeon.nl@SD",
+   "language": "nl",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "Nicktoons.nl@SD",
+   "language": "nl",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "Njam.be@SD",
+   "language": "nl",
+   "categories": [
+    "cooking"
+   ]
+  },
+  {
+   "id": "NPO1.nl@SD",
+   "language": "nl",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "NPO2.nl@SD",
+   "language": "nl",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "NPO3.nl@SD",
+   "language": "nl",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "OUTtv.nl@SD",
+   "language": "nl",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "PickxLive.be@NL",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "PickxPlus.be@NL",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "PickxPlusSports1.be@NL",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports10.be@NL",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports2.be@NL",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports3.be@NL",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports4.be@NL",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports5.be@NL",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports6.be@NL",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports7.be@NL",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports8.be@NL",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports9.be@NL",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PlattelandsTV.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "Play7.be@HD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "ProximusTVRegInfo.nl@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "QMusic.be@SD",
+   "language": "nl",
+   "categories": [
+    "music"
+   ]
+  },
+  {
+   "id": "RingTV.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "ROBTV.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "RTVKempen.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "RTVMech.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "Sport10.be@SD",
+   "language": "nl",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "StingrayClassica.ca@SD",
+   "language": "nl",
+   "categories": [
+    "music"
+   ]
+  },
+  {
+   "id": "StuBru.be@SD",
+   "language": "nl",
+   "categories": [
+    "music"
+   ]
+  },
+  {
+   "id": "TLC.nl@SD",
+   "language": "nl",
+   "categories": [
+    "lifestyle"
+   ]
+  },
+  {
+   "id": "TVLimburg.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "TVOost.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "VlaamsParlementTV.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "VTMGold.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "VTMLife.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "WTV.be@SD",
+   "language": "nl",
+   "categories": []
+  },
+  {
+   "id": "BBCNews.uk@Europe",
+   "language": "en",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "id": "BBCOne.uk@London",
+   "language": "en",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "BBCTwo.uk@HD",
+   "language": "en",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "BBCTwo.uk@England",
+   "language": "en",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "CNNInternational.us@MENA",
+   "language": "en",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "id": "EuronewsEnglish.fr@SD",
+   "language": "en",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "id": "FashionTVEurope.fr@SD",
+   "language": "en",
+   "categories": [
+    "lifestyle"
+   ]
+  },
+  {
+   "id": "Motorvision.de@SD",
+   "language": "en",
+   "categories": [
+    "auto"
+   ]
+  },
+  {
+   "id": "MTV80s.uk@SD",
+   "language": "en",
+   "categories": [
+    "music"
+   ]
+  },
+  {
+   "id": "WSport.za@SD",
+   "language": "en",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DasErste.de@SD",
+   "language": "de",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "RTL.de@SD",
+   "language": "de",
+   "categories": []
+  },
+  {
+   "id": "ZDF.de@SD",
+   "language": "de",
+   "categories": []
+  },
+  {
+   "id": "13emeRue.fr@SD",
+   "language": "fr",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "2MMonde.ma@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "AB3.be@SD",
+   "language": "fr",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "ABXplore.be@SD",
+   "language": "fr",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "Action.fr@SD",
+   "language": "fr",
+   "categories": [
+    "movies"
+   ]
+  },
+  {
+   "id": "ACTV.be@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "AlAoula.ma@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "AlJazeera.qa@English",
+   "language": "fr",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "id": "Animaux.fr@SD",
+   "language": "fr",
+   "categories": [
+    "education"
+   ]
+  },
+  {
+   "id": "arte.fr@SD",
+   "language": "fr",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "Automotolachaine.fr@SD",
+   "language": "fr",
+   "categories": [
+    "auto"
+   ]
+  },
+  {
+   "id": "BabyTV.uk@France",
+   "language": "fr",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "Be1.be@SD",
+   "language": "fr",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "BeCine.be@SD",
+   "language": "fr",
+   "categories": [
+    "movies"
+   ]
+  },
+  {
+   "id": "BeSeries.be@SD",
+   "language": "fr",
+   "categories": [
+    "series"
+   ]
+  },
+  {
+   "id": "BelRTL.be@HD",
+   "language": "fr",
+   "categories": [
+    "music"
+   ]
+  },
+  {
+   "id": "Boomerang.fr@SD",
+   "language": "fr",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "Bouke.be@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "BX1.be@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "C8.fr@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "CanalJ.fr@SD",
+   "language": "fr",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "CanalZ.be@SD",
+   "language": "fr",
+   "categories": [
+    "business"
+   ]
+  },
+  {
+   "id": "CanalZoom.be@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "CartoonNetworkCEE.uk@France",
+   "language": "fr",
+   "categories": [
+    "animation",
+    "kids"
+   ]
+  },
+  {
+   "id": "CinePlusClassic.be@SD",
+   "language": "fr",
+   "categories": [
+    "movies"
+   ]
+  },
+  {
+   "id": "CinePlusFrisson.fr@SD",
+   "language": "fr",
+   "categories": [
+    "movies"
+   ]
+  },
+  {
+   "id": "CinePlusOCS.fr@SD",
+   "language": "fr",
+   "categories": [
+    "movies"
+   ]
+  },
+  {
+   "id": "ComedyCentral.fr@SD",
+   "language": "fr",
+   "categories": [
+    "comedy"
+   ]
+  },
+  {
+   "id": "CrimeDistrict.fr@SD",
+   "language": "fr",
+   "categories": [
+    "series"
+   ]
+  },
+  {
+   "id": "DAZN1.uk@France",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DAZN2.uk@France",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DAZN3.uk@France",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DAZNProLeague1.uk@France",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DAZNProLeague2.uk@France",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DAZNProLeague3.uk@France",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "DiscoveryChannel.fr@SD",
+   "language": "fr",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "DisneyChannel.fr@SD",
+   "language": "fr",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "DisneyJr.fr@SD",
+   "language": "fr",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "DobbitTV.be@FR",
+   "language": "fr",
+   "categories": [
+    "lifestyle"
+   ]
+  },
+  {
+   "id": "E.fr@SD",
+   "language": "fr",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "EuronewsFrench.fr@SD",
+   "language": "fr",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "id": "Eurosport1.fr@France",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "Eurosport2.fr@France",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "France2.fr@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "France24.fr@French",
+   "language": "fr",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "id": "France3.fr@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "France4.fr@SD",
+   "language": "fr",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "France5.fr@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "GameOne.fr@SD",
+   "language": "fr",
+   "categories": [
+    "animation",
+    "entertainment"
+   ]
+  },
+  {
+   "id": "Gulli.fr@HD",
+   "language": "fr",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "HistoireTV.fr@SD",
+   "language": "fr",
+   "categories": [
+    "documentary"
+   ]
+  },
+  {
+   "id": "KTO.fr@SD",
+   "language": "fr",
+   "categories": [
+    "religious"
+   ]
+  },
+  {
+   "id": "LaTrois.be@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "LCI.fr@SD",
+   "language": "fr",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "id": "LN24.be@SD",
+   "language": "fr",
+   "categories": [
+    "news"
+   ]
+  },
+  {
+   "id": "MaghrebTV.be@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "Mangas.fr@SD",
+   "language": "fr",
+   "categories": [
+    "animation"
+   ]
+  },
+  {
+   "id": "Matele.be@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "Melody.fr@SD",
+   "language": "fr",
+   "categories": [
+    "music"
+   ]
+  },
+  {
+   "id": "MezzoLive.fr@SD",
+   "language": "fr",
+   "categories": [
+    "music"
+   ]
+  },
+  {
+   "id": "MTV.fr@SD",
+   "language": "fr",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "MTVHits.fr@SD",
+   "language": "fr",
+   "categories": [
+    "music"
+   ]
+  },
+  {
+   "id": "MuseumTVFrench.fr@SD",
+   "language": "fr",
+   "categories": [
+    "culture"
+   ]
+  },
+  {
+   "id": "MyZenTV.fr@SD",
+   "language": "fr",
+   "categories": [
+    "relax"
+   ]
+  },
+  {
+   "id": "NationalGeographic.fr@SD",
+   "language": "fr",
+   "categories": [
+    "documentary"
+   ]
+  },
+  {
+   "id": "NationalGeographicWild.fr@SD",
+   "language": "fr",
+   "categories": [
+    "documentary"
+   ]
+  },
+  {
+   "id": "Nickelodeon.fr@SD",
+   "language": "fr",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "NickelodeonJunior.fr@SD",
+   "language": "fr",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "Notele.be@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "ParamountChannel.fr@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "PickxLive.be@FR",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "PickxPlus.be@FR",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "PickxPlusSports1.be@FRHD",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports10.be@FR",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports2.be@FR",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports3.be@FR",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports4.be@FR",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports5.be@FR",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports6.be@FR",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports7.be@FR",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports8.be@FR",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PickxPlusSports9.be@FR",
+   "language": "fr",
+   "categories": [
+    "sports"
+   ]
+  },
+  {
+   "id": "PromiusPickxInfoChannel.be@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "ProximusTVRegInfo.fr@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "QU4TRELiegeMedia.be@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "RadioContact.be@SD",
+   "language": "fr",
+   "categories": [
+    "music"
+   ]
+  },
+  {
+   "id": "Rai1.it@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "Rai2.it@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "Rai3.it@HD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "RFMTV.fr@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "RTLClub.be@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "RTLPlug.be@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "ScienceVieTV.fr@SD",
+   "language": "fr",
+   "categories": [
+    "science"
+   ]
+  },
+  {
+   "id": "Syfy.fr@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "TCMCinema.fr@SD",
+   "language": "fr",
+   "categories": [
+    "movies"
+   ]
+  },
+  {
+   "id": "TeleMB.be@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "Telesambre.be@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "TF1.fr@SD",
+   "language": "fr",
+   "categories": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "TF1SeriesFilms.fr@SD",
+   "language": "fr",
+   "categories": [
+    "movies"
+   ]
+  },
+  {
+   "id": "TiJi.fr@SD",
+   "language": "fr",
+   "categories": [
+    "kids"
+   ]
+  },
+  {
+   "id": "Tipik.be@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "TipikVision.be@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "TMC.fr@HD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "TraceUrban.fr@SD",
+   "language": "fr",
+   "categories": [
+    "music"
+   ]
+  },
+  {
+   "id": "Trek.fr@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "TVBreizh.fr@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "TVLux.be@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "TV5MondeFranceBelgiumSwitzerlandMonaco.fr@SD",
+   "language": "fr",
+   "categories": [
+    "general"
+   ]
+  },
+  {
+   "id": "TVEInternacionalEuropeAsia.es@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "UshuaiaTV.fr@SD",
+   "language": "fr",
+   "categories": []
+  },
+  {
+   "id": "Vedia.be@SD",
+   "language": "fr",
+   "categories": []
+  }
+ ]
+}

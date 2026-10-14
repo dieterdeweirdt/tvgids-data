@@ -3,11 +3,14 @@
 Usage:
   gh api repos/iptv-org/epg/contents/sites/pickx.be/pickx.be.channels.xml -H "Accept: application/vnd.github.raw" > pickx.xml
   curl -sSLo channels.json https://iptv-org.github.io/api/channels.json
-  python3 scripts/build-channels.py pickx.xml channels.json belgie.channels.xml
+  python3 scripts/build-channels.py pickx.xml channels.json belgie.channels.xml channels-meta.json
+
+channels-meta.json (published next to the guide as channels.json) gives the app each channel's
+language and categories, for the filters above the grid.
 """
 import json, re, sys, collections
 from xml.sax.saxutils import escape
-pickx_path, api_path, out_path = sys.argv[1:4]
+pickx_path, api_path, out_path, meta_path = sys.argv[1:5]
 rows = re.findall(r'<channel site="pickx.be" site_id="([^"]*)" lang="([^"]*)" xmltv_id="([^"]*)">([^<]*)</channel>', open(pickx_path).read())
 db = {c['id']: c for c in json.load(open(api_path))}
 
@@ -59,5 +62,14 @@ for sid, lang, xid, name in core + rest:
     lines.append(f'  <channel site="pickx.be" site_id="{sid}" lang="{lang}" xmltv_id="{xid}">{escape(display((sid,lang,xid,name)))}</channel>')
 lines.append('</channels>')
 open(out_path, 'w').write('\n'.join(lines) + '\n')
+
+meta = [{
+    'id': xid,
+    'language': lang,
+    'categories': (db.get(xid.split('@')[0]) or {}).get('categories') or [],
+} for sid, lang, xid, name in core + rest]
+with open(meta_path, 'w') as f:
+    json.dump({'channels': meta}, f, ensure_ascii=False, indent=1)
+    f.write('\n')
 print(f"{len(core) + len(rest)} zenders; overgeslagen: {dict(skipped)}; dubbels samengevoegd: {len(rows) - sum(skipped.values()) - len(core) - len(rest)}")
 print(collections.Counter(r[1] for r in core + rest))

@@ -4,6 +4,7 @@ Dagelijkse datapijplijn voor de [tvOS tv-gids](https://github.com/dieterdeweirdt
 
 - https://dieterdeweirdt.github.io/tvgids-data/guide.xml.gz (deze URL gebruikt de app)
 - https://dieterdeweirdt.github.io/tvgids-data/guide.xml
+- https://dieterdeweirdt.github.io/tvgids-data/channels.json (taal en categorieën per zender, voor de filters in de app)
 
 De gids bevat 3 dagen, tijden in UTC, voor de zenders in [`belgie.channels.xml`](belgie.channels.xml). De volgorde in dat bestand is de standaardvolgorde in de app.
 

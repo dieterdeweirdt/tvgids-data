@@ -70,6 +70,9 @@ jobs:
           test "$programmes" -gt 20000
           test "$channels" -ge 150
 
+      - name: Add channel metadata
+        run: cp channels-meta.json public/channels.json
+
       - uses: actions/configure-pages@v6
 
       - uses: actions/upload-pages-artifact@v5
