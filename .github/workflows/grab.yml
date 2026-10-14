@@ -65,8 +65,10 @@ jobs:
           echo "programmes: $programmes, channels with programmes: $channels"
           echo "### Gids: $programmes programma's op $channels zenders" >> "$GITHUB_STEP_SUMMARY"
           test -s public/guide.xml.gz
-          test "$programmes" -gt 500
-          test "$channels" -ge 10
+          # Full list (14/10/2026): ~43,000 programmes on ~198 channels. Well below that means
+          # Pickx failed for many channels; keep yesterday's guide instead.
+          test "$programmes" -gt 20000
+          test "$channels" -ge 150
 
       - uses: actions/configure-pages@v6
 

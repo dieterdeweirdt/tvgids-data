@@ -9,7 +9,7 @@ De gids bevat 3 dagen, tijden in UTC, voor de zenders in [`belgie.channels.xml`]
 
 ## Werking
 
-- Mislukt de grab of is het resultaat te klein (minder dan 500 programma's of minder dan 10 zenders met data), dan wordt niets gepubliceerd en blijft de gids van de vorige dag online.
+- Mislukt de grab of is het resultaat te klein (minder dan 20.000 programma's of minder dan 150 zenders met data; normaal ±43.000 op ±198), dan wordt niets gepubliceerd en blijft de gids van de vorige dag online.
 - GitHub schakelt geplande workflows in publieke repo's uit na 60 dagen zonder activiteit. De eerste stap van de workflow zet zichzelf daarom bij elke run opnieuw aan via de API (geen dummy-commits nodig).
 - Handmatig draaien: tab **Actions** › *grab-epg* › *Run workflow*, of `gh workflow run grab-epg`.
 - `belgie.channels.xml` bevat alle zenders van Pickx (±209), gegenereerd met [`scripts/build-channels.py`](scripts/build-channels.py) (gebruiksaanwijzing bovenaan het script): één variant per zender (SD boven HD), volledige namen uit de [iptv-org-databank](https://iptv-org.github.io/api/channels.json), zonder testkanalen en erotische zenders. Volgorde: de 12 hoofdzenders, dan Nederlands-, Engels-, Duits- en Franstalig, alfabetisch. De app neemt nieuwe zenders automatisch op en verbergt zenders zonder programma's.
